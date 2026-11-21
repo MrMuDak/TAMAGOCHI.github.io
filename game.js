@@ -123,6 +123,163 @@
         '..KYYYYK..','..KYWWYK..','..KYYWYK..','..KYYYYK..','..KKKKKK..'
       ]
     },
+    /* --- вторая стадия: заяц --- */
+    klubok: {
+      palette: { b:'#7a4f38', B:'#a97450', k:'#2e2030' },
+      rows: [
+        '....................','.....bb......bb.....','....bBBb....bBBb....',
+        '....bBBb....bBBb....','.....bb......bb.....','......bbbbbbbb......',
+        '....bbBBBBBBBBbb....','...bBBBBBBBBBBBBb...','..bBBBBBBBBBBBBBBb..',
+        '..bBBBkBBBBBBkBBBb..','..bBBBkBBBBBBkBBBb..','..bBBBBBBBBBBBBBBb..',
+        '...bBBBBBBBBBBBBb...','....bbBBBBBBBBbb....','......bbbbbbbb......',
+        '....................','....................','....................',
+        '....................','....................'
+      ]
+    },
+    sprint: {
+      palette: { e:'#b7a9c9', E:'#e9b6d6', g:'#8c86a5', G:'#c2bcd4', v:'#c56bff' },
+      rows: [
+        '....................','....ee......ee......','...eEEe....eEEe.....',
+        '...eEEe....eEEe.....','...eEEe....eEEe.....','...eEEe....eEEe.....',
+        '....ee......ee......','.....gggggggg.......','....gGGGGGGGGg......',
+        '...gGGGGGGGGGGg.....','...gGGvGGGGvGGg.....','...gGGvGGGGvGGg.....',
+        '...gGGGGGGGGGGg.....','....gGGGGGGGGg......','....gGGGGGGGGg......',
+        '...ggGGGGGGGGgg.....','..gGGg......gGGg....','..gGGg......gGGg....',
+        '....................','....................'
+      ]
+    },
+    silvan: {
+      palette: { w:'#c9c2d8', W:'#f4f0fa', d:'#4a3a52' },
+      rows: [
+        '....................','...ww..........ww...','..wWWw........wWWw..',
+        '..wWWw........wWWw..','..wWWw........wWWw..','..wWWw........wWWw..',
+        '...ww..........ww...','....wwwwwwwwwwww....','...wWWWWWWWWWWWWw...',
+        '..wWWWWWWWWWWWWWWw..','..wWWddWWWWWWddWWw..','..wWWddWWWWWWddWWw..',
+        '..wWWWWWWWWWWWWWWw..','...wWWWWWWWWWWWWw...','....wWWWWWWWWWWw....',
+        '...wwWWWWWWWWWWww...','..wWWw........wWWw..','..wWWw........wWWw..',
+        '....................','....................'
+      ]
+    },
+    /* --- вторая стадия: кот --- */
+    komochek: {
+      palette: { p:'#a86f6f', P:'#c98f8f', k:'#2e2030' },
+      rows: [
+        '....................','.....pp......pp.....','....pPPp....pPPp....',
+        '....pPPp....pPPp....','.....pp......pp.....','......pppppppp......',
+        '....ppPPPPPPPPpp....','...pPPPPPPPPPPPPp...','..pPPPPPPPPPPPPPPp..',
+        '..pPPPkPPPPPPkPPPp..','..pPPPkPPPPPPkPPPp..','..pPPPPPPPPPPPPPPp..',
+        '...pPPPPPPPPPPPPp...','....ppPPPPPPPPpp....','......pppppppp......',
+        '....................','....................','....................',
+        '....................','....................'
+      ]
+    },
+    sfinks: {
+      palette: { p:'#a86f6f', P:'#d69bab', v:'#ff8fe0' },
+      rows: [
+        '....................','...pp..........pp...','..pPPp........pPPp..',
+        '..pPPp........pPPp..','...pp..........pp...','....pppppppppppp....',
+        '...pPPPPPPPPPPPPp...','..pPPPPPPPPPPPPPPp..','..pPPvPPPPPPvPPPp...',
+        '..pPPvPPPPPPvPPPp...','..pPPPPPPPPPPPPPPp..','...pPPPPPPPPPPPPp...',
+        '....pPPPPPPPPPPp....','....pPPPPPPPPPPp....','...ppPPPPPPPPPPpp...',
+        '..pPPp........pPPp..','..pPPp........pPPp..','....................',
+        '....................','....................'
+      ]
+    },
+    nebulous: {
+      palette: { p:'#b08ba8', P:'#d9b2cf', d:'#4a3a52', t:'#9c7a97' },
+      rows: [
+        '....................','...pp..........pp...','..pPPp........pPPp..',
+        '..pPPp........pPPp..','..pPPp........pPPp..','...pppppppppppppp...',
+        '..pPPPPPPPPPPPPPPp..','.pPPPPPPPPPPPPPPPPp.','.pPPdkPPPPPPPPdkPPp.',
+        '.pPPdkPPPPPPPPdkPPp.','.pPPPPPPPPPPPPPPPPp.','..pPPPPPPPPPPPPPPp..',
+        '...pPPPPPPPPPPPPp...','....pPPPPPPPPPPp....','...ppPPPPPPPPPPpp...',
+        '..pPPp........pPPp..','..ppp..........ppp..','.ttt............ttt.',
+        '....................','....................'
+      ]
+    },
+    /* --- вторая стадия: робот --- */
+    dron: {
+      palette: { s:'#8d8d9e', g:'#6c6b7e', G:'#a9a8b8', B:'#3ea8ff', W:'#ffffff', c:'#8d8d9e', C:'#5d5d70' },
+      rows: [
+        '....................','.......ss...........','........ss..........',
+        '.....gggggggg.......','....gGGGGGGGGg......','...gGGGGGGGGGGg.....',
+        '...gGGBBBBGGGGg.....','...gGGBWBBGGGGg.....','...gGGBBBBGGGGg.....',
+        '...gGGGGGGGGGGg.....','....gGGGGGGGGg......','.....gggggggg.......',
+        '..c..........c......','.cCc........cCc.....','.cCc........cCc.....',
+        '..c..........c......','....................','....................',
+        '....................','....................'
+      ]
+    },
+    prototype: {
+      palette: { c:'#8d8d9e', C:'#5d5d70', g:'#67677a', G:'#a0a0b0', e:'#7ff0ff', t:'#3a3a48', T:'#5a5a6a', O:'#2a2a36' },
+      rows: [
+        '....................','....................','...c............c...',
+        '...cC..........Cc...','...cC.gggggggg.Cc...','.....gGGGGGGGGg.....',
+        '....gGGGGGGGGGGg....','....gGGeeGGeeGGg....','....gGGeeGGeeGGg....',
+        '....gGGGGGGGGGGg....','....gGGGGGGGGGGg....','.....ggGGGGGGgg.....',
+        '......gGGGGGGg......','....tttttttttttt....','....tTTTTTTTTTTt....',
+        '....tToOOOOOoOt....','....tttttttttttt....','....................',
+        '....................','....................'
+      ]
+    },
+    hranitel: {
+      palette: { c:'#8d8d9e', C:'#5d5d70', g:'#67677a', G:'#a0a0b0', e:'#7ff0ff', B:'#3ea8ff', W:'#ffffff', t:'#3a3a48', T:'#5a5a6a' },
+      rows: [
+        '....................','.....c........c.....','....cCc......cCc....',
+        '....cCc......cCc....','.....c........c.....','.....gggggggggg.....',
+        '....gGGGGGGGGGGg....','...gGGGGGGGGGGGGg...','...gGGeeeeeeGGGGg...',
+        '...gGGGGGGGGGGGGg...','...gGGGGBBBBGGGGg...','...gGGGGBWBBGGGGg...',
+        '...gGGGGBBBBGGGGg...','...gGGGGGGGGGGGGg...','....gGGGGGGGGGGg....',
+        '....ggGGGGGGGGgg....','...tttttttttttttt...','...tTTTTTTTTTTTTt...',
+        '...tttttttttttttt...','....................'
+      ]
+    },
+    /* --- вторая стадия: дракон --- */
+    ugolek: {
+      palette: { o:'#b83218', O:'#e8502a', W:'#ffd15c', k:'#2e2030' },
+      rows: [
+        '....................','.........W..........','........WWW.........',
+        '.........W..........','......ooooooo.......','....ooOOOOOOOoo.....',
+        '...oOOOOOOOOOOOo....','..oOOOOOOOOOOOOOo...','..oOOkOOOOOkOOOo...',
+        '..oOOkOOOOOkOOOo...','..oOOOOOOOOOOOOOo...','..oOOOOOOOOOOOOOo...',
+        '...oOOOOOOOOOOOo....','....ooOOOOOOOoo.....','......ooooooo.......',
+        '....................','....................','....................',
+        '....................','....................'
+      ]
+    },
+    viverina: {
+      palette: { h:'#7a3a1a', r:'#b83818', R:'#f06030', k:'#2e2030', w:'#ff9a4a' },
+      rows: [
+        '....................','....h..........h....','...hhh........hhh...',
+        '....rrrrrrrrrrrr....','...rRRRRRRRRRRRRr...','..rRRkRRRRRRkRRRRr..',
+        '..rRRkRRRRRRkRRRRr..','..rRRRRRRwRRRRRRRr..','...rRRRRRRRRRRRRr...',
+        '....rRRRRRRRRRRr....','...w.rrRRRRRRrr.w...','..ww..rrRRRRrr..ww..',
+        '..www..rrRRrr..www..','........rrrr........','.......rr..rr.......',
+        '......rr....rr......','....................','....................',
+        '....................','....................'
+      ]
+    },
+    arhiv: {
+      palette: { w:'#ff9a4a', h:'#7a3a1a', r:'#b83818', R:'#f06030', k:'#2e2030' },
+      rows: [
+        '....................','..w..............w..','.www....hh......www.',
+        '.www...hhhh.....www.','..ww..rrrrrrrr..ww..','...w.rrRRRRRRrr.w...',
+        '....rrRRRRRRRRrr....','...rRRRkRRkRRRRRr...','..rRRRRkRRkRRRRRRr..',
+        '..rRRRRRRRRRRRRRRr..','..rRRRRRRwwRRRRRRr..','...rRRRRRRRRRRRRr...',
+        '....rrRRRRRRRRrr....','.....rrRRRRRRrr.....','......rrRRRRrr......',
+        '.......rrrrrr.......','......rr....rr......','.....rr......rr.....',
+        '....................','....................'
+      ]
+    },
+    tomb: {
+      palette: { t:'#5a5a6a', T:'#bcbccc', k:'#2e2030', g:'#4a8046' },
+      rows: [
+        '...tttttt...','..tTTTTTTt..','.tTTTTTTTTt.','.tTTkkTTTTt.',
+        '.tTTTTTTTTt.','.tTTTTTTTTt.','.tTTTTTTTTt.','.tTTTTTTTTt.',
+        '.tTTTTTTTTt.','.tttttttttt.','.gggggggggg.','gggggggggggg',
+        '............','............'
+      ]
+    },
     ball: {
       palette: { W:'#f4f4ff', B:'#e0505a', Y:'#ffd166' },
       rows: [
@@ -142,11 +299,26 @@
   };
 
   const CREATURES = [
-    { id:'rostok',   name:'РОСТОК',   kind:'ЗАЯЦ',   sprite:'rostok',   glow:'255,120,255', accent:'#ff9dff', food:'carrot',   foodName:'МОРКОВЬ' },
-    { id:'bit',      name:'БИТ',      kind:'РОБОТ',  sprite:'bit',      glow:'90,190,255',  accent:'#7fe0ff', food:'battery',  foodName:'ЗАРЯДКА' },
-    { id:'pushinka', name:'ПУШИНКА',  kind:'КОТ',    sprite:'pushinka', glow:'255,170,220', accent:'#ffc2e8', food:'fish',     foodName:'РЫБА' },
-    { id:'iskra',    name:'ИСКРА',    kind:'ДРАКОН', sprite:'iskra',    glow:'255,140,50',  accent:'#ffab5e', food:'log',      foodName:'БРЁВНО' }
+    { id:'rostok', name:'РОСТОК', kind:'ЗАЯЦ', sprite:'rostok',
+      stages:['rostok','klubok','sprint','silvan'],
+      stageNames:['РОСТОК','КЛУБОК','СПРИНТ','СИЛЬВАН'],
+      glow:'255,120,255', accent:'#ff9dff', food:'carrot', foodName:'МОРКОВЬ' },
+    { id:'bit', name:'БИТ', kind:'РОБОТ', sprite:'bit',
+      stages:['bit','dron','prototype','hratel'],
+      stageNames:['БИТ','ДРОН','ПРОТОТИП','ХРАНИТЕЛЬ'],
+      glow:'90,190,255', accent:'#7fe0ff', food:'battery', foodName:'ЗАРЯДКА' },
+    { id:'pushinka', name:'ПУШИНКА', kind:'КОТ', sprite:'pushinka',
+      stages:['pushinka','komochek','sfinks','nebulous'],
+      stageNames:['ПУШИНКА','КОМОЧЕК','СФИНКС','НЕБУЛУС'],
+      glow:'255,170,220', accent:'#ffc2e8', food:'fish', foodName:'РЫБА' },
+    { id:'iskra', name:'ИСКРА', kind:'ДРАКОН', sprite:'iskra',
+      stages:['iskra','ugolek','viverina','arhiv'],
+      stageNames:['ИСКРА','УГОЛЕК','ВИВЕРНА','АРХИВ'],
+      glow:'255,140,50', accent:'#ffab5e', food:'log', foodName:'БРЁВНО' }
   ];
+
+  function stageSprite(c) { return c.stages[Math.min(3, Math.max(0, stage - 1))]; }
+  function stageName(c) { return c.stageNames[Math.min(3, Math.max(0, stage - 1))]; }
 
   function drawSprite(id, cx, bottomY, scale, bob) {
     const s = SPRITES[id];
@@ -257,6 +429,7 @@
   let sceneTime = 0;
   let creature = null;
   let infoOpen = false, inventoryOpen = false;
+  let dead = false;
   let muted = false;
   let flash = 0, shake = 0;
   let particles = [];
@@ -306,6 +479,10 @@
   const inventoryButton = { label:'ИНВЕНТАРЬ', x:165, y:272, w:150, h:20, scale:1, action:'inventory' };
   const menuButton = { label:'В МЕНЮ',        x:318, y:272, w:150, h:20, scale:1, action:'menu' };
   const infoButton = { label:'ПОНЯТНО', x:190, y:224, w:100, h:20, scale:1, action:'closeInfo' };
+  const deadButtons = [
+    { label:'ЗАВЕСТИ НОВОГО', x:46,  y:250, w:190, h:24, scale:1, action:'new' },
+    { label:'В МЕНЮ',         x:244, y:250, w:190, h:24, scale:1, action:'menu' }
+  ];
   const invCloseButton = { label:'ЗАКРЫТЬ', x:246, y:232, w:196, h:22, scale:1, action:'closeInventory' };
   const invNewButton = { label:'ЗАВЕСТИ НОВОГО', x:34, y:232, w:196, h:22, scale:1, action:'newFromInventory' };
 
@@ -315,7 +492,7 @@
       const e = collection[i];
       const c = CREATURES.find(x => x.id === e.id);
       list.push({
-        label: c.name + ' - СТАДИЯ ' + e.stage,
+        label: c.stageNames[e.stage-1] + ' - СТАДИЯ ' + e.stage,
         x: 210, y: 74 + i * 34, w: 234, h: 26, scale: 1,
         action: 'select:' + e.id
       });
@@ -328,6 +505,7 @@
     if (scene === 'menu') return menuButtons;
     if (scene === 'cutscene') return sceneTime >= 3100 ? cutButtons : [];
     if (scene === 'road') return sceneTime >= 1200 ? [roadButton] : [];
+    if (dead) return deadButtons;
     if (sleeping) return [wakeButton, inventoryButton, menuButton];
     const list = careButtons.concat([inventoryButton, menuButton]);
     list.splice(0, 0, locationButton);
@@ -382,8 +560,20 @@
   /* ------------------------------------------------------------------ */
   /* Коллекция и переходы                                                 */
   /* ------------------------------------------------------------------ */
+  function die() {
+    if (dead) return;
+    dead = true;
+    action = null;
+    sleeping = false;
+    levelUpTimer = 0;
+    particles = [];
+    flash = 0.5;
+    collection = collection.filter(e => e.id !== creature.id);
+    beep(300, 0.5, 'sine', 0.06, 90);
+    setTimeout(() => beep(220, 0.6, 'sine', 0.05, 70), 220);
+  }
   function saveCurrent() {
-    if (!creature || (scene !== 'care' && scene !== 'road')) return;
+    if (dead || !creature || (scene !== 'care' && scene !== 'road')) return;
     const i = collection.findIndex(e => e.id === creature.id);
     const entry = { id:creature.id, stage:stage, exp:exp, stats:{ ...stats } };
     if (i >= 0) collection[i] = entry;
@@ -396,7 +586,7 @@
     creature = CREATURES.find(c => c.id === id);
     stage = e.stage; exp = e.exp; stats = { ...e.stats };
     scene = 'care'; sceneTime = 0; action = null;
-    sleeping = false; levelUpTimer = 0; particles = [];
+    sleeping = false; levelUpTimer = 0; particles = []; dead = false;
     inventoryOpen = false;
     beep(700, 0.12, 'triangle', 0.04, 1000);
   }
@@ -405,7 +595,7 @@
     creature = CREATURES[Math.floor(Math.random() * CREATURES.length)];
     scene = 'cutscene'; sceneTime = 0; particles = [];
     flash = 0; shake = 0; action = null; sleeping = false;
-    location = 'home'; stage = 1; exp = 0; levelUpTimer = 0;
+    location = 'home'; stage = 1; exp = 0; levelUpTimer = 0; dead = false;
     stats = { food:75, mood:75, energy:85 };
     inventoryOpen = false; infoOpen = false;
     beep(180, 0.5, 'sine', 0.05, 520);
@@ -448,7 +638,7 @@
     beep(540, 0.06, 'square', 0.03);
     if (a === 'new' || a === 'again' || a === 'newFromInventory') startCutscene();
     else if (a.startsWith('select:')) selectCreature(a.slice(7));
-    else if (a === 'continue') { if (creature) enterCare(); }
+    else if (a === 'continue') { if (creature && !dead) enterCare(); else startCutscene(); }
     else if (a === 'road') enterRoad();
     else if (a === 'enterHome') enterCare();
     else if (a === 'menu') toMenu();
@@ -545,6 +735,7 @@
           stats.energy = Math.max(0, stats.energy - 0.25);
         }
       }
+      if (stats.food <= 0) die();
       if (sleeping && Math.random() < 0.015) particles.push({
         x: 250+Math.random()*14, y: 168, vx: 3, vy: -14,
         life: 1700, max: 1700, color: '#bcd4ff', size: 1, z: true
@@ -754,7 +945,7 @@
       const bounce = since < 520 ? -Math.abs(Math.sin(since/95))*16*(1-since/520) : Math.sin(now/420)*2;
       glow(W/2,198,52,c.glow,0.28+0.06*Math.sin(now/260));
       ctx.fillStyle = 'rgba('+c.glow+',0.22)'; ctx.fillRect(W/2-30,FLOOR_Y+1,60,3);
-      drawSprite(c.sprite, W/2, FLOOR_Y, 3, bounce);
+      drawSprite(stageSprite(c), W/2, FLOOR_Y, 3, bounce);
       drawText('ТВОЙ НЕЙРОГЛИФ!', W/2, 22, 2, '#ffe1a0', 'center');
       const nw = textWidth(c.name,2)+24;
       ctx.fillStyle = 'rgba(6,9,24,0.9)'; ctx.fillRect(W/2-nw/2,240,nw,22);
@@ -776,7 +967,7 @@
     const t = sceneTime, k = Math.min(1, t/1300), x = 62+258*k;
     drawText('НЕСЁМ ДОМОЙ', W/2, 26, 2, '#ffe1a0', 'center');
     glow(x,196,34,creature.glow,0.18);
-    drawSprite(creature.sprite, x, FLOOR_Y, 3, -Math.abs(Math.sin(t/105))*4);
+    drawSprite(stageSprite(creature), x, FLOOR_Y, 3, -Math.abs(Math.sin(t/105))*4);
     drawSprite('house', 390, FLOOR_Y+8, 3, 0);
     if (t > 1250) {
       bubble('ВОТ И ДОМ!', creature.accent);
@@ -785,15 +976,29 @@
   }
 
   /* ------------------------------------------------------------------ */
+  /* Смерть от голода                                                     */
+  /* ------------------------------------------------------------------ */
+  function drawDeath(now) {
+    overlayBoth('rgba(2,4,14,0.78)');
+    glow(W/2, 190, 70, '120,90,160', 0.12);
+    drawSprite('tomb', W/2, 224, 3, 0);
+    drawText('ПИТОМЕЦ УМЕР', W/2, 44, 3, '#d7a0b8', 'center');
+    drawText('СЫТОСТЬ УПАЛА ДО НУЛЯ', W/2, 82, 1, '#a99ac4', 'center');
+    drawText('НУЖНО БЫЛО КОРМИТЬ ЕГО', W/2, 100, 1, '#8d84ad', 'center');
+    for (const b of deadButtons) button(b, inside(b,mouse), false);
+  }
+
+  /* ------------------------------------------------------------------ */
   /* Уход (дом / улица)                                                   */
   /* ------------------------------------------------------------------ */
   function drawCare(now) {
     const c = creature;
     if (location === 'home') drawRoom(now); else drawOutside(now);
+    if (dead) { drawDeath(now); return; }
     if (sleeping) overlayBoth('rgba(3,6,24,0.42)');
     drawParticles();
 
-    drawText(c.name, W/2, 6, 3, '#ffe1a0', 'center');
+    drawText(stageName(c), W/2, 6, 3, '#ffe1a0', 'center');
     drawText(c.kind+' - СТАДИЯ '+stage, W/2, 36, 1, '#9a96cf', 'center');
     statBar(12, 'СЫТОСТЬ', stats.food, '#ff9d5c');
     statBar(126, ' НАСТРОЕНИЕ', stats.mood, '#ff8fc8');
@@ -804,13 +1009,13 @@
     const size = [0,3,4,4,5][stage] || 3;
     let phrase;
     if (sleeping) {
-      drawSprite(c.sprite, W/2, FLOOR_Y, size, Math.sin(sleepTime/520)*1.5);
+      drawSprite(stageSprite(c), W/2, FLOOR_Y, size, Math.sin(sleepTime/520)*1.5);
       ctx.fillStyle = '#241a35';
       ctx.fillRect(W/2-18,198,10,2); ctx.fillRect(W/2+8,198,10,2);
       phrase = 'СЛАДКИХ СНОВ';
     } else if (action && action.type === 'feed') {
       const t = action.t;
-      drawSprite(c.sprite, W/2, FLOOR_Y, size,
+      drawSprite(stageSprite(c), W/2, FLOOR_Y, size,
         t > 650 && t < 1900 ? Math.sin(t/65)*2 : Math.sin(now/400)*2);
       if (t < 900) {
         const k = Math.min(1, t/650);
@@ -821,7 +1026,7 @@
       const t = action.t, k = Math.min(1, t/2500);
       const bx = 34+412*k, by = 150-Math.abs(Math.sin(k*Math.PI*7))*52;
       const near = bx > 190 && bx < 290;
-      drawSprite(c.sprite, W/2, FLOOR_Y, size, near ? -Math.abs(Math.sin(t/75))*12 : Math.sin(now/400)*2);
+      drawSprite(stageSprite(c), W/2, FLOOR_Y, size, near ? -Math.abs(Math.sin(t/75))*12 : Math.sin(now/400)*2);
       drawSprite('ball', bx, by+10, 2, 0);
       if (near && Math.random() < 0.3) particles.push({
         x:240+(Math.random()-0.5)*50, y:190,
@@ -830,7 +1035,7 @@
       phrase = near ? 'ПОЙМАЛ!' : 'ИГРАЕМ!';
     } else if (action && action.type === 'train') {
       const t = action.t, lift = Math.abs(Math.sin(t/125))*12;
-      drawSprite(c.sprite, W/2, FLOOR_Y, size, -lift);
+      drawSprite(stageSprite(c), W/2, FLOOR_Y, size, -lift);
       ring(W/2, 194, 40+Math.sin(t/110)*4, c.accent);
       ctx.fillStyle = '#c8d0e0';
       ctx.fillRect(W/2-15, 156-lift, 9, 6);
@@ -838,8 +1043,8 @@
       ctx.fillRect(W/2-6, 158-lift, 12, 2);
       phrase = t < 1300 ? 'ТРЕНИРУЮСЬ!' : 'СТАНОВЛЮСЬ СИЛЬНЕЕ!';
     } else {
-      drawSprite(c.sprite, W/2, FLOOR_Y, size, Math.sin(now/420)*2);
-      if (levelUpTimer > 0) phrase = 'УРОВЕНЬ '+stage+'!';
+      drawSprite(stageSprite(c), W/2, FLOOR_Y, size, Math.sin(now/420)*2);
+      if (levelUpTimer > 0) phrase = 'ЭВОЛЮЦИЯ: '+stageName(c)+'!';
       else if (stats.food < 25) phrase = 'Я ГОЛОДНЫЙ...';
       else if (stats.energy < 25) phrase = 'ХОЧУ СПАТЬ...';
       else if (stats.mood < 25) phrase = 'МНЕ СКУЧНО...';
@@ -880,10 +1085,10 @@
       'ЗАЯЦ - МОРКОВЬ, КОТ - РЫБА,',
       'РОБОТ - ЗАРЯДКА, ДРАКОН - БРЁВНО.',
       '',
-      'ТРЕНИРОВКИ ПОВЫШАЮТ СТАДИЮ.',
+      'ТРЕНИРОВКИ МЕНЯЮТ ОБЛИК ПИТОМЦА.',
       'НА УЛИЦЕ МЕНЯЕТСЯ ДЕНЬ И НОЧЬ.',
-      'В ИНВЕНТАРЕ МОЖНО ВЫБРАТЬ',
-      'ДРУГОГО ИЛИ ЗАВЕСТИ НОВОГО.'
+      'В ИНВЕНТАРЕ - ДРУГИЕ ПИТОМЦЫ.',
+      'КОРМИ: ПРИ НУЛЕ СЫТОСТИ ОН УМРЕТ.'
     ];
     for (let i = 0; i < lines.length; i++) drawText(lines[i], W/2, y+56+i*13, 1, '#d2ceff', 'center');
     button(infoButton, inside(infoButton,mouse), false);
@@ -896,8 +1101,8 @@
     drawText('МОИ ТАМАГОЧИ', x+22, y+46, 1, '#a99bff', 'left');
     if (creature) {
       glow(x+70, y+164, 40, creature.glow, 0.2);
-      drawSprite(creature.sprite, x+70, y+166, 2, Math.sin(now/400)*2);
-      drawText(creature.name, x+70, y+174, 1, '#eae6ff', 'center');
+      drawSprite(stageSprite(creature), x+70, y+166, 2, Math.sin(now/400)*2);
+      drawText(stageName(creature), x+70, y+174, 1, '#eae6ff', 'center');
     }
     if (collection.length === 0) {
       drawText('ПОКА НИКОГО НЕТ', 320, y+110, 1, '#7d7aa8', 'center');
